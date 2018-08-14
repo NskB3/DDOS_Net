@@ -13,6 +13,33 @@ with port 4465 forwarded!                  |
 ___________________________________________|
 """
 def cli():
+	print """
+                                                                                                                                                        
+                                                                                                                                                        
+DDDDDDDDDDDDD      DDDDDDDDDDDDD             OOOOOOOOO        SSSSSSSSSSSSSSS      NNNNNNNN        NNNNNNNNEEEEEEEEEEEEEEEEEEEEEETTTTTTTTTTTTTTTTTTTTTTT
+D::::::::::::DDD   D::::::::::::DDD        OO:::::::::OO    SS:::::::::::::::S     N:::::::N       N::::::NE::::::::::::::::::::ET:::::::::::::::::::::T
+D:::::::::::::::DD D:::::::::::::::DD    OO:::::::::::::OO S:::::SSSSSS::::::S     N::::::::N      N::::::NE::::::::::::::::::::ET:::::::::::::::::::::T
+DDD:::::DDDDD:::::DDDD:::::DDDDD:::::D  O:::::::OOO:::::::OS:::::S     SSSSSSS     N:::::::::N     N::::::NEE::::::EEEEEEEEE::::ET:::::TT:::::::TT:::::T
+  D:::::D    D:::::D D:::::D    D:::::D O::::::O   O::::::OS:::::S                 N::::::::::N    N::::::N  E:::::E       EEEEEETTTTTT  T:::::T  TTTTTT
+  D:::::D     D:::::DD:::::D     D:::::DO:::::O     O:::::OS:::::S                 N:::::::::::N   N::::::N  E:::::E                     T:::::T        
+  D:::::D     D:::::DD:::::D     D:::::DO:::::O     O:::::O S::::SSSS              N:::::::N::::N  N::::::N  E::::::EEEEEEEEEE           T:::::T        
+  D:::::D     D:::::DD:::::D     D:::::DO:::::O     O:::::O  SS::::::SSSSS         N::::::N N::::N N::::::N  E:::::::::::::::E           T:::::T        
+  D:::::D     D:::::DD:::::D     D:::::DO:::::O     O:::::O    SSS::::::::SS       N::::::N  N::::N:::::::N  E:::::::::::::::E           T:::::T        
+  D:::::D     D:::::DD:::::D     D:::::DO:::::O     O:::::O       SSSSSS::::S      N::::::N   N:::::::::::N  E::::::EEEEEEEEEE           T:::::T        
+  D:::::D     D:::::DD:::::D     D:::::DO:::::O     O:::::O            S:::::S     N::::::N    N::::::::::N  E:::::E                     T:::::T        
+  D:::::D    D:::::D D:::::D    D:::::D O::::::O   O::::::O            S:::::S     N::::::N     N:::::::::N  E:::::E       EEEEEE        T:::::T        
+DDD:::::DDDDD:::::DDDD:::::DDDDD:::::D  O:::::::OOO:::::::OSSSSSSS     S:::::S     N::::::N      N::::::::NEE::::::EEEEEEEE:::::E      TT:::::::TT      
+D:::::::::::::::DD D:::::::::::::::DD    OO:::::::::::::OO S::::::SSSSSS:::::S     N::::::N       N:::::::NE::::::::::::::::::::E      T:::::::::T      
+D::::::::::::DDD   D::::::::::::DDD        OO:::::::::OO   S:::::::::::::::SS      N::::::N        N::::::NE::::::::::::::::::::E      T:::::::::T      
+DDDDDDDDDDDDD      DDDDDDDDDDDDD             OOOOOOOOO      SSSSSSSSSSSSSSS        NNNNNNNN         NNNNNNNEEEEEEEEEEEEEEEEEEEEEE      TTTTTTTTTTT      
+                                                                                                                                                        
+                                                                                                                                                        
+                                                                                                                                                        
+                                                                                                                                                        
+                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                     	
+	
+"""
 	global target, port, lhost, LPORT
 	try:
 		target = sys.argv[1]
