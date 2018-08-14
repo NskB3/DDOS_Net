@@ -108,13 +108,13 @@ def listen():
 			pass
 		s.bind(("", LPORT))
 		s.listen(100000)
-		print "Started Listening..."
+		print "Listening..."
 		try:
 			conn, addr = s.accept()
 		except:
 			pass
 		f += 1
-		sys.stdout.write("\rBots Have Started Attacking!\n")
+		sys.stdout.write("\rA New Bot Has Started Attacking!\n")
 		sys.stdout.flush()
 
 create_file()
