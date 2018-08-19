@@ -1,4 +1,4 @@
-#Original Program By Hic Adam/NSK B3
+#Original Program By NSK B3
 import sys, socket
 help = """
 Usage: python ddos_net.py [TARGET] [PORT] [LHOST]
